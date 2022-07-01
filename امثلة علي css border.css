@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Main-border{
+    border: rgb(55, 0, 255) solid 4px;
+    margin: 12px;
+    border-radius: 15px;
+    border-left: red solid 5px;
+}
+h1{
+    padding-bottom: 20px;
+    padding-right: 6px;
+    border-bottom: 4px rgb(255, 0, 0) solid;
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    padding-top: 7px;
+}
+p{
+    padding-right: 15px;
+    font-size: 25px;
+    padding-bottom: 15px;
+}

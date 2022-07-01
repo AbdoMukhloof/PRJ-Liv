@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+.Sec-All{
+    background-color: rgba(187, 186, 186, 0.507);
+    border-radius: 40px;
+    height: 500px;
+    margin-top: 10px;
+}
+div{
+    padding-top: 10px;
+}
+h1{
+    background-color: royalblue;
+    color: #fff;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 70px;
+    border-radius: 60px;
+    font-size: 34px;
+    margin-top: 10px;
+}
+.Sec-1{
+    float: left;
+    /* border: 3px solid black; */
+    margin-left: 100px;
+    height: 200px;
+    display: inline-block;
+}
+h2{
+    color: red;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    font-size: 40px;
+}
+.Par-1{
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 0px 30px;
+    font-weight: bolder;
+}
+.Links{
+    margin-top: 20px;
+}
+.Fac{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.Fac:hover{
+    animation: infinite 2s Facebook-hover;
+}
+@keyframes Facebook-hover{
+    0%{font-size: 20px;}
+
+    50%{font-size: 25px;}
+
+    100%{font-size: 20px;}
+}
+.YT{
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.YT:hover{
+    animation: infinite 2s YouTube-hover;
+}
+@keyframes YouTube-hover{
+    0%{font-size: 20px;}
+
+    50%{font-size: 25px;}
+
+    100%{font-size: 20px;}
+}
+
+.Sec-2{
+    display: inline-block;
+    margin-left: 220px;
+}
+img{
+    border: red 2px solid;
+    border-radius: 50%;
+}
+h3{
+    margin-top: 20px;
+    font-size: 28px;
+}
+.Par-2{
+    margin-top: 30px;
+    font-size: 27px;
+}

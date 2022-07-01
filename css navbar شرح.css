@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    display: inline-block;
+    font-size: 35px;
+}
+div{
+    text-align: center;
+}
+.icon-arrow-down{
+    font-size: 32px;
+    color: red;
+}
+nav{
+    background-color: royalblue;
+}
+a{
+    color: white;
+    padding: 12px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.Contact{
+    background-color: orange;
+}
+.Home:hover, .News:hover, .About:hover, a:focus{
+    background-color: orangered;
+    outline: none;
+}
+.About{
+    float: right;
+}
+h2{
+    text-align: center;
+    display: inline-block;
+    font-size: 35px;
+}
+.links{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.Home2{
+    background-color: green;
+}
+.News2:hover, .Contact2:hover, .About2:hover{
+    background-color: black;
+}
+.About2{
+    float: right;
+}
+h3{
+    text-align: center;
+    display: inline-block;
+    font-size: 35px;  
+}
+.Link-coloum{
+    background-color: rgb(194, 191, 191);
+    display: flex;
+    flex-direction: column;
+}
+.home-3, .about-3, .contact-3, .news-3{
+    color: black;
+}
+.home-3{
+    background-color: rgb(35, 240, 35);
+}
+.news-3:hover, .contact-3:hover, .about-3:hover{
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+}

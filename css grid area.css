@@ -1,0 +1,95 @@
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;}  
+
+.myside, .mymain, .banner, .ad, .my-footer{
+    border: 3px solid red;
+    text-align: center;
+    font-weight: bold;
+}
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 1.5fr 1.6fr 1.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "myheader myheader myheader"
+      "img-1 img-1 img-1"
+      "myside mymain mymain"
+      "myside banner banner"
+      "myside ad img-2"
+      "my-footer my-footer my-footer";
+
+      height: 1070px;
+      border: 5px solid royalblue;
+  }
+  
+  .myheader {
+     grid-area: myheader;
+     padding-top: 22px;
+     font-size: 27px; 
+     background-color: #222222;
+     color: #fff;
+     font-weight: bold;
+     text-align: center;
+    }
+  
+  .img-1 { 
+    grid-area: img-1; 
+    
+}
+  
+  .myside {
+     grid-area: myside;
+     background-color: rgb(240, 169, 36); 
+     padding: 230px 15px;
+     font-size: 25px;
+     font-weight: bold;
+     border: orange 2px solid;
+    }
+  
+  .mymain {
+     grid-area: mymain; 
+     background-color: #222222;
+     color: #fff;
+     padding: 100px 30px;
+     font-size: 29px;
+    }
+  
+  .banner { 
+    grid-area: banner; 
+    background-color: orange;
+    padding-top: 44px;
+    font-size: 26px;
+}
+  
+  .ad {
+     grid-area: ad;
+     width: 834px;
+     background-color: aqua;
+     padding-top: 44px; 
+     font-size: 30px;
+    }
+  
+  .img-2 {
+     grid-area: img-2;
+     width: 130px; 
+    }
+  
+  .my-footer { 
+    grid-area: my-footer; 
+    padding-top: 44px;
+    font-size: 30px; 
+    background-color: #222222;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+  
